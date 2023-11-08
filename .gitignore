@@ -9,3 +9,6 @@
 /EmailAPI/.vs/ProjectEvaluation
 /EmailAPI/Properties/PublishProfiles
 /EmailAPI/Properties/ServiceDependencies/pontual-saraf-email-api - Web Deploy/profile.arm.json
+/bin
+/obj
+/Properties

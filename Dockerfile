@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["EmailAPI/EmailAPI.csproj", "./EmailAPI"]
+COPY ["EmailAPI.csproj", "./EmailAPI"]
 RUN dotnet restore "./EmailAPI.csproj"
 COPY . .
 WORKDIR "/src/."
